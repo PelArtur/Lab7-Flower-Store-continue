@@ -3,11 +3,13 @@ package com.example.week7;
 import com.example.week7.flower.*;
 import com.example.week7.delivery.*;
 import com.example.week7.payments.*;
+import lombok.Getter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
+    @Getter
     private final List<Item> items = new ArrayList<>();;
     private Payment payment;
     private Delivery delivery;
