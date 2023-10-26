@@ -21,4 +21,5 @@ public class FlowerService {
     public List<Flower> getFlowers() {
         return List.of(new Flower(FlowerType.ROSE));
     }
+
 }
